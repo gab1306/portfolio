@@ -1,0 +1,150 @@
+
+
+
+body {
+   background: url(http://2015.icimeeting.com/wp-content/uploads/2015/03/Beach-1.jpg);
+   background-size: cover;
+   width:100%;
+   margin:auto;
+   max-width:965px;
+}
+
+
+
+
+nav {
+  
+  position:fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  padding-left: 70px;
+  background-color: black;
+
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 70px;
+
+}
+
+nav li a { 
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 100px;
+  font-family: 12px 'opensans-bold', sans-serif;
+  font-size: 18px;
+  position: block;
+}
+
+
+
+
+
+h1 {
+  margin-bottom: 10px;
+  color:white;
+  font-family: georgia;
+  text-align: center;
+  font-size: 70px;
+  padding-right: 40px;
+
+
+}
+
+
+
+
+
+.facebook img{
+  width: 70px;
+
+}
+
+.home p{
+  padding-top: 0;
+  padding-left: 160px;
+  font-size: 34px;
+  color: lightgrey;
+  line-height: 1.5em;
+  
+}
+
+.instagram img{
+  width: 50px;
+ 
+}
+
+.twitter img{
+  width: 70px;
+
+}
+
+.instagram{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.twitter{
+  margin:4px;
+  margin-left: 10px;
+
+}
+
+.app{
+  display: inline-flex;
+  margin-left: 370px;
+}
+
+.about{
+  display: inline-block;
+  width: :500px;
+  left: 0;
+  padding-left: 70px;
+  background-color: black;
+
+  
+
+
+ 
+
+}
+
+.aboutme h3{
+  font-family:'Sansita';
+  font-weight: 100px;
+  padding-left: 80px;
+  color: white;
+
+}
+
+.aboutme p{
+  font-size: 17px;
+  color: white;
+  font-family: 'Sansita';
+  padding-left: 200px;
+}
+
+
+
+
+.work{
+  background-color:white;
+  height:500px;
+}
+
+
+
+.work h3{
+  color:grey;
+  font-family:'Merriweather';
+  padding-left: 50px;
+
+}
+
+
+
+
+
