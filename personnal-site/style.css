@@ -1,32 +1,17 @@
 
-
-
-body {
-   background: url(http://2015.icimeeting.com/wp-content/uploads/2015/03/Beach-1.jpg);
-   background-size: cover;
-   width:100%;
-   margin:auto;
-   max-width:965px;
-}
-
-
-
-
 nav {
-  
   position:fixed;
   top: 0; 
   left: 0;
   width: 100%;
   padding-left: 70px;
   background-color: black;
-
 }
+
 
 nav li {
   display: inline-block;
   padding-left: 70px;
-
 }
 
 nav li a { 
@@ -41,45 +26,39 @@ nav li a {
 
 
 
+.home{
+  background: url(http://maximumwallhd.com/wp-content/uploads/2015/07/fonds-ecran-ciel-16.jpg);
+  background-size: cover;
+}
 
-
-h1 {
-  margin-bottom: 10px;
+.title{
+  padding-left: 0px;
+  margin-top: 54px;
+  width: 100%;
   color:white;
   font-family: georgia;
   text-align: center;
-  font-size: 70px;
-  padding-right: 40px;
-
-
+  font-size: 1.8em;
 }
-
-
-
-
 
 .facebook img{
   width: 70px;
-
 }
 
-.home p{
-  padding-top: 0;
-  padding-left: 160px;
-  font-size: 34px;
-  color: lightgrey;
-  line-height: 1.5em;
-  
+.title p{
+  font-family: verdana;
+  font-size: 29px;
+  color:grey;
+  line-height: 1.5em; 
+  margin-top: -30px;
 }
 
 .instagram img{
   width: 50px;
- 
 }
 
 .twitter img{
   width: 70px;
-
 }
 
 .instagram{
@@ -95,53 +74,54 @@ h1 {
 
 .app{
   display: inline-flex;
-  margin-left: 370px;
+  padding-left: 520px;
 }
+
+
+
+
 
 .about{
-  display: inline-block;
-  width: :500px;
-  left: 0;
-  padding-left: 70px;
-  background-color: black;
-
-  
-
-
- 
-
-}
-
-.aboutme h3{
-  font-family:'Sansita';
-  font-weight: 100px;
-  padding-left: 80px;
-  color: white;
-
-}
-
-.aboutme p{
-  font-size: 17px;
-  color: white;
-  font-family: 'Sansita';
-  padding-left: 200px;
-}
-
-
-
-
-.work{
   background-color:white;
-  height:500px;
+  width: 100%;
+  height: 500px;
+  float: left;
 }
 
 
 
-.work h3{
-  color:grey;
-  font-family:'Merriweather';
-  padding-left: 50px;
+.aboutme{
+  font-family:'Sansita';
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  float: left;
+  padding-right: 20px;
 
+}
+
+.aboutme img{
+  float: left;
+}
+
+
+
+
+
+.paragraphe {
+  font-size: 23px;
+  color: black;
+  font-family: 'Sansita';
+  vertical-align: top;
+}
+.paragraphe:before { /* single : to support older browsers */
+    display:block;
+    width:100%;
+}
+
+.projects{
+  background-color: black;
+  color: white;
 }
 
 
